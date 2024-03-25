@@ -2,8 +2,7 @@ package org.example.model.services;
 
 public interface OnlinePaymentService {
 
-    public double paymentFee(Double amount);
-    public double interest(Double amount, Integer months);
-
+    double paymentFee(double amount);
+    double interest(double amount, int months);
 
 }
